@@ -15,7 +15,7 @@ public class login {
     WebDriver driver;
     String baseUrl = "https://dev-alazharpontianak.pintro.id/";
 
-    @Given("User masuk ke halaman login Swaglabs")
+    @Given("User masuk ke halaman login")
     public void halaman_login(){
         driver = Hooks.getDriver(); // ← pindahkan ke sini
         driver.get(baseUrl);

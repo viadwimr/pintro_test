@@ -119,8 +119,5 @@ public class register {
         opsi.click();
 
         driver.findElement(By.id("next")).click();
-
-        String pageName = driver.findElement(By.className("title")).getText();
-        Assert.assertEquals(pageName, "Products");
     }
 }

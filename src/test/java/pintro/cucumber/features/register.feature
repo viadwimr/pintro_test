@@ -1,9 +1,6 @@
-Feature: Register ellrow
-Scenario: user able to checkout the product
-  Given user is on products page
-  And user click add cart button on one of product
-  And user click cart simbol button
-  And user click checkout button
-  And user send personal data
-  When user click the finish button
-  Then user will see the success message
+Feature: Enroll Form Submission
+  Scenario: Successful form submission with valid data
+    Given User is on the Enroll Page
+    When User fills out the form with valid data
+    And User submits the form
+    Then User should see a confirmation message

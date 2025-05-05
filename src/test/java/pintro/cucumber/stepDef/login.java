@@ -36,6 +36,6 @@ public class login {
     @Then("User berhasil dapat melihat halaman \"products\"")
     public void products_page(){
         String pageName = driver.findElement(By.className("title")).getText();
-        Assert.assertEquals(pageName, "Products");
+        Assert.assertEquals(pageName, "Selamat Datang");
     }
 }
